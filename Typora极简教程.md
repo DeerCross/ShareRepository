@@ -199,12 +199,12 @@ TAB TAB * 多行无序列表2
 - 语法1（*行内式链接*）
 
 ```c#
-[百度][https://www.baidu.com/]
+[百度](https://www.baidu.com/)
 ```
 
 - 效果1
 
-[百度][https://www.baidu.com/]
+[百度](https://www.baidu.com/)
 
 - 语法2（*参考式链接*）
 
