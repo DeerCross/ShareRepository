@@ -27,6 +27,9 @@ function SkinnedMeshComponent:onAwake()
     self:on("setLocalScale", handler(self, "setLocalScale"))
 end
 
+
+
+
 function SkinnedMeshComponent:onLoadPrefab(data)
     if self.obj then
         GameObject.Destroy(self.obj)
